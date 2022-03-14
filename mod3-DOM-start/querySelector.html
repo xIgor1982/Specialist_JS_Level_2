@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Hello, world!</h1>
+			<section>
+				<h2>First heading</h2>
+				<p>Lorem, ipsum dolor.</p>
+				<p>Eum, dolorem vel.</p>
+			</section>
+			<section>
+				<h2>Second heading</h2>
+				<p>Lorem, ipsum dolor.</p>
+				<p>Eum, <strong>dolorem</strong> vel.</p>
+			</section>
+		</div>
+		<script>
+			/*
+1. Запустите скрипт и убедитесь, что в консоли выводится div с классом container
+2. Поменяйте селектор в querySelector так, чтобы нашелся заголовок h1 
+3. Поменяйте селектор в querySelector так, чтобы нашелся второй заголовок h2
+4. Поменяйте селектор в querySelector так, чтобы нашелся первый параграф во второй секции
+5. Найдите элемент strong и поменяйте ему свойство innerHTML. Изучите результат
+6. Найдите вторую секцию и при помощи свойства innerHTML допишите текст "<img src='https://placekitten.com/200/100' alt=''>". В браузере должно появится изображение
+7. Возьмите массив из data из файла mod2-array-methos/map.js и выведите все элементы из массива как верстку. Пример приведен в том же файле.
+*/
+
+			// let element = document.querySelector('.container');
+			// let element = document.querySelector('h1');
+			// let element = document.querySelector('h2');
+			// let element = document.querySelector('section:nth-of-type(2) p:last-of-type');
+			// let element = document.querySelector('section:nth-child(3) p:last-of-type');
+
+			// let element = document.querySelector("strong");
+			// element.innerHTML = "newDolorem";
+
+			// let element = document.querySelector("section:nth-of-type(2)");
+			// element.innerHTML += "<img src='https://placekitten.com/200/100' alt=''>";
+			// console.log(element);
+
+			// const data = [
+			// 	{
+			// 		id: 7,
+			// 		email: "michael.lawson@reqres.in",
+			// 		first_name: "Michael",
+			// 		last_name: "Lawson",
+			// 		avatar: "https://reqres.in/img/faces/7-image.jpg",
+			// 	},
+			// 	{
+			// 		id: 8,
+			// 		email: "lindsay.ferguson@reqres.in",
+			// 		first_name: "Lindsay",
+			// 		last_name: "Ferguson",
+			// 		avatar: "https://reqres.in/img/faces/8-image.jpg",
+			// 	},
+			// 	{
+			// 		id: 9,
+			// 		email: "tobias.funke@reqres.in",
+			// 		first_name: "Tobias",
+			// 		last_name: "Funke",
+			// 		avatar: "https://reqres.in/img/faces/9-image.jpg",
+			// 	},
+			// 	{
+			// 		id: 10,
+			// 		email: "byron.fields@reqres.in",
+			// 		first_name: "Byron",
+			// 		last_name: "Fields",
+			// 		avatar: "https://reqres.in/img/faces/10-image.jpg",
+			// 	},
+			// 	{
+			// 		id: 11,
+			// 		email: "george.edwards@reqres.in",
+			// 		first_name: "George",
+			// 		last_name: "Edwards",
+			// 		avatar: "https://reqres.in/img/faces/11-image.jpg",
+			// 	},
+			// 	{
+			// 		id: 12,
+			// 		email: "rachel.howell@reqres.in",
+			// 		first_name: "Rachel",
+			// 		last_name: "Howell",
+			// 		avatar: "https://reqres.in/img/faces/12-image.jpg",
+			// 	},
+			// ];
+
+			// const myData = data.map(
+			// 	({
+			// 		id,
+			// 		email,
+			// 		first_name,
+			// 		last_name,
+			// 		avatar,
+			// 	}) => `<div class="card card-user">
+			//           <img src="${avatar}" alt="${first_name} ${last_name}">
+			//           <h2>${first_name} ${last_name}</h2>
+			//           <p>Email: <a href="mailto:${email}">${email}</a></p>
+			//           <p><a href="/user/${id}">Подробней</a></p>
+			//       </div>`
+			// );
+
+			// const app = document.querySelector(".container");
+			// app.innerHTML += myData.join("");
+
+			//********************************
+			let element = document.querySelector("section:nth-of-type(2)");
+			element.innerHTML += "<img src='https://placekitten.com/200/100' alt=''>";
+			console.log(element);
+
+			const cat = document.querySelector("img");
+			cat.style.border = "10px solid #fff";
+			cat.style.boxShadow = "0 0 5px #444";
+			cat.style.borderRadius = "3px";
+
+			cat.onclick = function () {
+				let i = 0,
+					step = 10,
+					tick = 40,
+					self = this;
+
+				function a() {
+					if (i < step) {
+						i++;
+						self.style.opacity = 1 - i / step;
+						setTimeout(a, tick);
+					}
+				}
+				a();
+			};
+		</script>
+	</body>
+</html>

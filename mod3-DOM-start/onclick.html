@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<button onclick="clickBtn(this)">Кнопка1</button>
+		<button onclick="clickBtn(this)">Кнопка2</button>
+		<hr />
+		<button>Кнопка3</button>
+		<button>Кнопка4</button>
+		<script>
+			/* Напишите атрибуты onclick в каждой кнопке. Напишите функции, которые будут вызываться при нажатии каждой кнопки. Функции должны выводить соответствующие строки: "Кнопка1" или "Кнопка2"*/
+			function clickBtn(el) {
+				console.log(el.innerHTML);
+				alert(el.innerHTML);
+			}
+			const btn3 = document.querySelector("button:nth-of-type(3)");
+			const btn4 = document.querySelector("button:nth-of-type(4)");
+
+			btn3.onclick = function () {
+				console.log(this.innerHTML);
+				alert(this.innerHTML);
+			};
+      
+			btn4.onclick = function () {
+				console.log(this.innerHTML);
+				alert(this.innerHTML);
+			};
+		</script>
+	</body>
+</html>

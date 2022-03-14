@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			#result {
+				width: 100px;
+				height: 110px;
+				position: fixed;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				font-size: 2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="result">16:47:10</div>
+		<script>
+			/*Напишите скрипт, который будет выводить текущее время в элементе с идентификатором result. Нужно использовать setInterval или setTimeout*/
+
+			// const [hour, minute, second] = result.innerHTML.split(":");
+			// const date = new Date(2022, 02, 14, hour, minute, second);
+
+			// function my() {
+			// 	const dt = new Date().toLocaleTimeString();
+			// 	result.innerHTML = dt;
+			// 	setTimeout(my, 1000);
+			// }
+			// my();
+
+			(function (minutes) {
+				let stopTimer = new Date(new Date().getTime() + minutes * 60 * 1000);
+
+				function my() {
+					const currentDt = new Date();
+					const time = currentDt.toLocaleTimeString();
+					result.innerHTML = time;
+					if (currentDt <= stopTimer) {
+						setTimeout(my, 1000);
+					}
+				}
+				my();
+			})(1);
+		</script>
+	</body>
+</html>

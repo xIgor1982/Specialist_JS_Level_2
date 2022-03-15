@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body>
-		<h1>Углубленная работа с функциями</h1>
-		<div id="app"></div>
-
-		<script src="module_1.js"></script>
-	</body>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+  section{
+    display: none;    
+  }</style>
+</head>
+<body>
+	<h1>Пример различий в innerHTML и textContent</h1>
+  
+  <div id="test1">Текст1
+    <p>Текст 11</p>
+    <script>console.log(11)</script>
+    <style>.class1{}</style>
+    <section>Скрыто1</section>
+  </div>
+  
+  <div id="test2">Текст2
+    <p>Текст 22</p>
+    <script>console.log(22)</script>
+    <style>.class2{}</style>
+    <section>Скрыто2</section>
+  </div>
+  
+  <div id="test3">Текст3
+    <p>Текст 33</p>
+    <script>console.log(33)</script>
+    <style>.class3{}</style>
+    <section>Скрыто3</section>
+  </div>
+  
+  <script>
+  console.log(test1.innerText)
+  console.log(test1.textContent)
+  </script>
+</body>
 </html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<p>просто <em>пример</em> текста</p>
+
+		<script>
+			/* У вас есть ссылка на элемент <em> в одноименной константе em.
+    1. Найдите ссылку на
+    - текстовый узел со словом "просто"  
+    - текстовый узел со словом " текста"  
+    - текстовый узел со словом "пример"  
+    - родительский узел для em
+    - все дочерние узлы параграфа
+    - последний узел параграфа (сначала найти параграф, потом последний узел параграфа)  
+
+    2. Поменяйте программно слово "пример" на "изучение"
+
+    3*. Напишите рекурсивную функцию tree(node), которая на вход получает DOM-узел и далее строит древовидный объект со структурой DOM-дерева. Например, для указанного параграфа, вызов tree(document.querySelector('p')) может вернуть структуру
+      {
+        name: 'p',
+        children: [
+          {name: 'text', value: 'просто '},
+          {
+            name: 'em',
+            children: [
+              {name: 'text', value: 'пример'},
+            ]
+          },
+          {name: 'text', value: ' текста'},
+        ]
+      }
+
+      */
+			// const em = document.querySelector('em');
+			const em = document.querySelector("em");
+			console.log(em);
+
+			//1 - текстовый узел со словом "просто"
+			let prevEm = em.previousSibling;
+			console.log(prevEm);
+
+			//2 - текстовый узел со словом " текста"
+			let nextEm = em.nextSibling;
+			console.log(nextEm);
+
+			//3 - текстовый узел со словом "пример"
+			let firstEm = em.firstChild;
+			console.log(firstEm);
+
+			//4 - родительский узел для em
+			let parentEm = em.parentNode;
+			console.log(parentEm);
+
+			//5 - все дочерние узлы параграфа
+			let parentChildEm = em.parentNode.childNodes;
+			console.log(parentChildEm);
+
+			//6 - последний узел параграфа (сначала найти параграф, потом последний узел параграфа)
+			let parentChildLastEm = em.parentNode.lastChild;
+			console.log(parentChildLastEm);
+
+			//7 - Поменяйте программно слово "пример" на "изучение"
+			em.textContent = "изучение";
+			// em.innerHTML = "изучение";
+			// em.firstChild.nodeValue = "изучение";
+		</script>
+	</body>
+</html>

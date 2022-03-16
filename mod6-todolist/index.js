@@ -30,55 +30,10 @@
 		divList.innerHTML = "";
 		divCompleted.innerHTML = "";
 
-		const uncompletedItems = todoList.filter(
-			(item) => item.status == "uncompleted"
-		);
 		const ulUncompleted = document.createElement("ul");
-		uncompletedItems.forEach((item) => {
-			const li = document.createElement("li");
-			const text = document.createTextNode(item.text);
-			li.appendChild(text);
-			li.setAttribute("data-uid", item.uid);
-
-			li.addEventListener("click", function (ev) {
-				if (ev.target.nodeName != "LI") return;
-
-				let id = this.getAttribute("data-uid");
-
-				todoList.forEach((item) => {
-					if (item.uid == id) {
-						item.status =
-							item.status == "completed" ? "uncompleted" : "completed";
-					}
-				});
-
-				render();
-			});
-
-			const a = document.createElement("a");
-			a.innerHTML = "Удалить";
-			a.href = "#";
-			a.addEventListener("click", function (ev) {
-				ev.preventDefault();
-
-				let id = this.parentNode.getAttribute("data-uid");
-				console.log(id);
-
-				todoList = todoList.filter((item) => item.uid != id);
-				render();
-			});
-			li.appendChild(a);
-
-			ulUncompleted.appendChild(li);
-		});
-		divList.appendChild(ulUncompleted);
-
-		const completedItems = todoList.filter(
-			(item) => item.status == "completed"
-		);
 		const ulCompleted = document.createElement("ul");
 
-		completedItems.forEach((item) => {
+		todoList.forEach((item) => {
 			const li = document.createElement("li");
 			const text = document.createTextNode(item.text);
 			li.appendChild(text);
@@ -104,6 +59,7 @@
 			a.href = "#";
 			a.addEventListener("click", function (ev) {
 				ev.preventDefault();
+
 				let id = this.parentNode.getAttribute("data-uid");
 				console.log(id);
 
@@ -111,8 +67,14 @@
 				render();
 			});
 			li.appendChild(a);
-			ulCompleted.appendChild(li);
+
+			if (item.status == "uncompleted") {
+				ulUncompleted.appendChild(li);
+			} else {
+				ulCompleted.appendChild(li);
+			}
 		});
+		divList.appendChild(ulUncompleted);
 		divCompleted.appendChild(ulCompleted);
 	}
 })();

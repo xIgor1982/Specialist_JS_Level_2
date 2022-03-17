@@ -4,7 +4,6 @@
 	"description": "",
 	"source": "src/index.html",
 	"browserslist": "> 0.5%, last 2 versions, not dead",
-	"main": "src/app.js",
 	"scripts": {
 		"start": "parcel -p 5500",
 		"build": "parcel build"

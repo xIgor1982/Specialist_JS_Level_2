@@ -1,5 +1,5 @@
-4671
-60E:\Specialist_JS_Level_2\mod9-tests-and-build-2\package.json132919946184968229 0
+4679
+60E:\Specialist_JS_Level_2\mod9-tests-and-build-2\package.json132919948468016118 0
 103E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\posthtml\node_modules\posthtml-parser\dist132919905909305102 1
 91E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\config-default\LICENSE132919905907534531 0
 70E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\commander132919905909525092 1
@@ -21,6 +21,10 @@
 88E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-minify-params\types132919905908614526 1
 104E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map132919905911055487 0
 58E:\Specialist_JS_Level_2\mod9-tests-and-build-2\.gitignore132919766592074251 0
+85E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\dotenv-expand\index.d.ts132919905907754544 0
+52E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist132919948538376440 1
+87E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\svgo\plugins\reusePaths.js132919905913121153 0
+91E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\nanoid\non-secure\package.json132919905910595491 0
 89E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\yaml\browser\types\binary.js132919905907554554 0
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\regions\IN.js132919905917022588 0
 85E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\svgo\lib\svgo\plugins.js132919905912100717 0
@@ -65,10 +69,6 @@
 84E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\supports-color\index.js132919905907734534 0
 91E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\mdn-data\css\units.schema.json132919905911495500 0
 62E:\Specialist_JS_Level_2\mod9-tests-and-build-2\src\index.html132919916601961473 0
-82E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\lmdb\dependencies\lz4132919905910125485 1
-99E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js132919905907434513 0
-105E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@swc\helpers\lib\_tagged_template_literal.js132919905912751160 0
-90E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\json-parse-even-better-errors132919905908394526 1
 81E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\terser\dist\.gitkeep132919905906954518 0
 107E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js132919905907544558 0
 74E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\utility-types132919905910315493 1
@@ -182,10 +182,10 @@
 119E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\msgpackr-extract\prebuilds\linux-x64\node.abi102.musl.node132919905911205521 0
 97E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\bundler-default\package.json132919905908554539 0
 66E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\clone132919905908845067 1
+86E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\stylehacks\src\dictionary132919905910905503 1
 95E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\dom-serializer\lib\foreignNames.js132919905907364566 0
 74E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\color-convert132919905909055078 1
 99E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\cosmiconfig\dist\getDirectory.d.ts.map132919905910795496 0
-86E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\stylehacks\src\dictionary132919905910905503 1
 80E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\yaml\browser\seq.js132919905912040717 0
 71E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\color-name132919905908014538 1
 98E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-normalize-unicode\LICENSE-MIT132919905906894528 0
@@ -277,6 +277,10 @@
 85E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-unique-selectors132919905908394526 1
 116E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.sln132919905918152592 0
 73E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\import-fresh132919905908394526 1
+82E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\lmdb\dependencies\lz4132919905910125485 1
+99E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js132919905907434513 0
+105E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@swc\helpers\lib\_tagged_template_literal.js132919905912751160 0
+90E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\json-parse-even-better-errors132919905908394526 1
 86E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\utils\src\hash.js132919905911075505 0
 86E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\posthtml-render\readme.md132919905908785071 0
 108E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-selector-parser\dist\selectors\types.js132919905911615495 0
@@ -1317,9 +1321,6 @@
 88E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\node-addon-api\package.json132919905910625489 0
 102E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\stylehacks\types\plugins\leadingStar.d.ts132919905911950737 0
 94E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\svgo\plugins\removeXMLProcInst.js132919905913091172 0
-87E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\svgo\plugins\reusePaths.js132919905913121153 0
-85E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\dotenv-expand\index.d.ts132919905907754544 0
-91E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\nanoid\non-secure\package.json132919905910595491 0
 93E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\svgo\plugins\sortDefsChildren.js132919905913171142 0
 98E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-unique-selectors\package.json132919905907814525 0
 86E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\csso\lib\replace\property132919905911750749 1
@@ -2020,9 +2021,9 @@
 74E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\minimist\test132919905910505515 1
 96E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\features\webgl.js132919905920693807 0
 95E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-discard-comments\README.md132919905909125097 0
+100E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-calc\types\lib\convertUnit.d.ts132919905910395522 0
 102E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-discard-comments\types\index.d.ts132919905909775517 0
 126E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\index.js132919905910635480 0
-100E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-calc\types\lib\convertUnit.d.ts132919905910395522 0
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\optimizer-image\LICENSE132919905907044521 0
 95E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\postcss-discard-comments\types\lib132919905909535080 1
 100E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\features\shadowdom.js132919905919642593 0
@@ -3352,6 +3353,7 @@
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\regions\ER.js132919905915992097 0
 89E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\@parcel\packager-css\LICENSE132919905907004536 0
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\regions\FM.js132919905916272097 0
+70E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.c6350cc9.js132919948538316405 0
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\regions\FR.js132919905916472139 0
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\regions\GA.js132919905916492103 0
 92E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\caniuse-lite\data\regions\GB.js132919905916512098 0
@@ -4670,3 +4672,9 @@
 76E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\.bin\semver.ps1132919905921313788 0
 72E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\.bin\terser132919905921313788 0
 76E:\Specialist_JS_Level_2\mod9-tests-and-build-2\node_modules\.bin\terser.cmd132919905921313788 0
+70E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.2ead5fb8.js132919948538316405 0
+74E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.2ead5fb8.js.map132919948538376440 0
+71E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.49ed5095.css132919948538316405 0
+75E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.49ed5095.css.map132919948538376440 0
+74E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.c6350cc9.js.map132919948538376440 0
+63E:\Specialist_JS_Level_2\mod9-tests-and-build-2\dist\index.html132919948538316405 0

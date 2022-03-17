@@ -1,0 +1,1 @@
+{"mappings":"AAEAA,QAAQC,IAAI,eAAoB,EAAE","sources":["src/app.js"],"sourcesContent":["import sum from './my.js'\r\n\r\nconsole.log('Hello World!', sum(2,5));"],"names":["console","log"],"version":3,"file":"index.2ead5fb8.js.map"}

@@ -1,0 +1,17 @@
+{
+	"name": "mod8-node",
+	"type": "module",
+	"version": "0.0.1",
+	"description": "project for mod8",
+	"main": "test.js",
+	"scripts": {
+		"start": "node test.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Igor",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^9.0.0",
+		"date-fns": "^2.28.0"
+	}
+}
